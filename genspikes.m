@@ -16,12 +16,6 @@ function [S,R] = genspikes(rate,tau,nSamp,fs,method)
 % NUMSAMP can be a scalar value for a single spike train, or a 2 element
 % array with NUMSAMP = [M N] with M samples per trial and N trials
 
-
-
-
-
-
-
 dt = 1/fs;
 
 % determine output vector/matrix size

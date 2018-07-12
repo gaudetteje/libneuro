@@ -5,12 +5,6 @@ function I = genisi(S,fs)
 % spikes in SPIKES.
 %
 
-
-
-
-
-
-
 spikeLoc = find(S > 0);
 spikeTime = spikeLoc/fs;
 I = diff(spikeTime);

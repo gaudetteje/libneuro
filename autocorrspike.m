@@ -5,12 +5,6 @@ function [H,M] = autocorrspike(S,fs,wLen)
 % of the neural response function with its average over time/trials removed
 %
 
-
-
-
-
-
-
 % calculate window length in samples
 nPoints = ceil(wLen*fs);
 

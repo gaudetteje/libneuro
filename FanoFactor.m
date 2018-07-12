@@ -5,12 +5,6 @@ function F = FanoFactor(S,fs,wLen)
 %  based on non-overlapping windows of duration wLen.  The Fano Factor is
 %  then found using the formula F = std(n)/mean(n).
 
-
-
-
-
-
-
 % force S to be a column vector
 S(:)=S;
 

@@ -6,14 +6,6 @@ function rasterplot(time,ch,events)
 % EVENTS is a matrix MxN, for M channels and N samples in time
 %
 
-
-
-
-
-
-
-
-
 %function raster(time,ch,events)
 nTicks = 8;
 

@@ -11,12 +11,6 @@ function varargout = histpdf(data,varargin)
 %
 % Note:  Bin width can be calculated using BINRANGE/NBINS.
 
-
-
-
-
-
-
 switch nargin
     case 1
         nBins = 50;
